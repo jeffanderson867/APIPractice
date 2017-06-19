@@ -12,6 +12,7 @@
 		8B34001A1EF40EA30081609F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3400181EF40EA30081609F /* Main.storyboard */; };
 		8B34001C1EF40EA30081609F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B34001B1EF40EA30081609F /* Assets.xcassets */; };
 		8B34001F1EF40EA30081609F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B34001D1EF40EA30081609F /* LaunchScreen.storyboard */; };
+		8B3400271EF413240081609F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3400261EF413240081609F /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8B34001B1EF40EA30081609F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B34001E1EF40EA30081609F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B3400201EF40EA30081609F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3400261EF413240081609F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8B3400141EF40EA30081609F /* AppDelegate.swift */,
 				8B3400161EF40EA30081609F /* ViewController.swift */,
+				8B3400261EF413240081609F /* NetworkController.swift */,
 				8B3400181EF40EA30081609F /* Main.storyboard */,
 				8B34001B1EF40EA30081609F /* Assets.xcassets */,
 				8B34001D1EF40EA30081609F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				8B3400171EF40EA30081609F /* ViewController.swift in Sources */,
 				8B3400151EF40EA30081609F /* AppDelegate.swift in Sources */,
+				8B3400271EF413240081609F /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

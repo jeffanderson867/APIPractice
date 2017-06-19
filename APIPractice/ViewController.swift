@@ -10,8 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let myNetworkController = NetworkController()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        var apodObject:APOD = APOD(json: [:])
+        myNetworkController.fetchAPOD { (myAPOD) in
+            apodObject = myAPOD
+        }
+        //end goal to make sure it works
+
+
+
+        print(apodObject.description)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
